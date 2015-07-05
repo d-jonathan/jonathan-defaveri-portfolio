@@ -1,0 +1,120 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+
+
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-size: 2.5em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  /*Typography Declarations*/
+  font-size: 6em;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.02em;
+  color: white;
+  text-shadow: 6px 6px 5px #48283D;
+}
+
+/*Responsiveness*/
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+.masthead {
+    padding: 6em 0;
+    border-top: solid 1em #7A81E8;
+    background-image: url("http://i284.photobucket.com/albums/ll16/d_jonathan/d0acbf10-0548-4038-a1e7-e02184c984c5_zpsy2h67ppd.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.introduction-section,
+.design-section,
+.behavior-section,
+.policy-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  padding: 0.3em;
+}
+
+.introduction-section > p,
+.design-section > p,
+.behavior-section > p,
+.policy-section > p{
+  margin: 0.8em 0 0.2em 0;
+}
+
+.introduction-section > h2,
+.design-section > h3,
+.behavior-section > h3,
+.policy-section > h3,
+.content-footer > h3 {  
+  margin-top: 0.1em;
+  padding: 0.2em 0;
+  /*Tyopgraphy Declarations*/
+   font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+
+.masthead-intro,
+.introduction-section > p, 
+.design-section > p,
+.behavior-section > p,
+.policy-section > p,
+.social > li {
+  /*Tyopgraphy Declarations*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.content-footer {
+  margin-top: 2em;
+  padding: 2em 0;
+  background-color: #FCA000;
+}
+
+.social {
+  margin-top: 0.6em;
+  list-style-type: none;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 0 1.2em;
+}
+
+.social a, .social a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.social a:hover {
+  color: #982C00;
+}
