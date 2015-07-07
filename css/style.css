@@ -3,6 +3,13 @@ margin: 0;
 padding: 0;
 }
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 h2 {
   font-size: 2em;
 }
@@ -66,10 +73,12 @@ h3 {
     }
 }
 
-.introduction-section,
+.people-tech-head,
 .design-section,
 .behavior-section,
-.policy-section {
+.policy-section,
+.projects-head,
+.projects-section {
   max-width: 38em;
   margin-left: auto;
   margin-right: auto;
@@ -84,15 +93,43 @@ h3 {
   margin: 0.8em 0.1em 0.2em 0.1em;
 }
 
-.introduction-section > h2,
+.profile-photo-head {
+  float: left;
+  width: 24%;
+  margin: 3em 4% 6em 4%;
+  text-align: center;
+  height: 10em;
+}
+
+.introduction-section {
+  float: right;
+  width: 60%;
+  margin: 3em 4% 6em 4%;
+  max-width: 50em;
+  height: 10em;
+}
+
+
+.people-tech-head,
+.design-section,
+.behavior-section,
+.policy-section,
+.projects-head,
+.projects-section,
+.content-footer {
+  clear: both;
+}
+
+.people-tech-head > h2,
 .design-section > h3,
 .behavior-section > h3,
 .policy-section > h3,
+.projects-head > h2,
 .content-footer > h3 {  
   margin: 0.1em 0.1em 0 0.1em;
   padding: 0.2em 0;
   /*Tyopgraphy Declarations*/
-   font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -104,11 +141,14 @@ h3 {
 .design-section > p,
 .behavior-section > p,
 .policy-section > p,
+.karma-clone > p,
+.nytimes-hack > p,
 .social > li {
   /*Tyopgraphy Declarations*/
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+
 
 .content-footer {
   margin-top: 2em;
