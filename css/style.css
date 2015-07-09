@@ -89,13 +89,14 @@ h3 {
 }
 
 .profile-photo-head {
-  float: left;
-  width: 120px;
-  margin-right: 6em;
+  max-width: 120px;
+  margin: 0.3em auto 0 auto;
 }
 
-.introduction-contet {
-  margin-right: 6em;
+
+.introduction-content {
+  margin: 1.5em auto;
+  max-width: 38em;
 }
 
 .introduction-content > p,
@@ -105,13 +106,25 @@ h3 {
   margin: 0.8em 0.1em 0.2em 0.1em;
 }
 
+.container {
+  max-width: 65em;
+  margin: 0 auto;
+}
+
 .design-section,
 .behavior-section,
 .policy-section,
 .karma-clone,
 .nytimes-hack {
+  max-width: 18em;
+  max-height: 210px;
   display: inline-block;
-  max-width: 20em;
+  margin: 1em 1.5em;
+}
+
+.projects-head,
+.content-footer {
+  clear: both;
 }
 
 .people-tech-head > h2,
