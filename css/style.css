@@ -27,6 +27,7 @@ h3 {
 .masthead-intro {
   margin-bottom: 0.1em;
   font-size: 2.5em;
+  color: #F6E2CE;
 }
 
 .masthead-heading {
@@ -35,14 +36,14 @@ h3 {
   font-size: 6em;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.02em;
-  color: white;
-  text-shadow: 6px 6px 5px #48283D;
+  color: #FF8607;
+  text-shadow: 6px 6px 5px #4A4A4A;
 }
 
 .masthead {
     padding: 6em 0;
-    border-top: solid 1em #7A81E8;
-    background-image: url("../img/headerlondon.jpg"); 
+    border-top: solid 1em #00478F;
+    background-image: url("../img/headercity.jpeg"); 
     background-size: cover;
     background-repeat: no-repeat;
  }
@@ -153,7 +154,7 @@ h3 {
 .content-footer {
   margin-top: 2em;
   padding: 2em 0;
-  background-color: #FCA000;
+  background-color: #FF8607;
 }
 
 .social {
