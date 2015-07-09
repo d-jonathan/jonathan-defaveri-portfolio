@@ -106,8 +106,13 @@ h3 {
   margin: 0.8em 0.1em 0.2em 0.1em;
 }
 
-.container {
+.container-1 {
   max-width: 65em;
+  margin: 0 auto;
+}
+
+.container-2 {
+  max-width: 45em;
   margin: 0 auto;
 }
 
@@ -119,12 +124,8 @@ h3 {
   max-width: 18em;
   max-height: 210px;
   display: inline-block;
-  margin: 1em 1.5em;
-}
-
-.projects-head,
-.content-footer {
-  clear: both;
+  margin: 1em 1.7em;
+  vertical-align: top;
 }
 
 .people-tech-head > h2,
@@ -153,6 +154,11 @@ h3 {
   /*Tyopgraphy Declarations*/
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+}
+
+.karma-clone > p,
+.nytimes-hack > p {
+  margin-top: 1em;
 }
 
 
