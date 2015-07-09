@@ -11,7 +11,7 @@ html {
 }
 
 section, div {
-  border: 1px solid Chocolate;
+  border: 1px solid transparent;
 }
 
 
@@ -124,7 +124,7 @@ h3 {
   max-width: 18em;
   max-height: 210px;
   display: inline-block;
-  margin: 1em 1.7em;
+  margin: 1.7em 1.7em;
   vertical-align: top;
 }
 
@@ -156,9 +156,15 @@ h3 {
   font-weight: 300;
 }
 
+.karma-clone,
+.nytimes-hack {
+  text-align: center;
+}
+
 .karma-clone > p,
 .nytimes-hack > p {
   margin-top: 1em;
+  text-align: center;
 }
 
 
