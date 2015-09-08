@@ -71,6 +71,18 @@ h3 {
     .masthead-intro {
       color: #FFFFFF;
     }
+
+    .project {
+      max-width: 16em;
+      max-height: 250px;
+      display: inline-block;
+      margin: 1.7em 0;
+      vertical-align: top;
+    }
+
+    .project img {
+      width: 250px;
+    }
 }
 
 .people-tech-head,
