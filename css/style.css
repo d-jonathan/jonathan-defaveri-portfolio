@@ -47,7 +47,7 @@ h3 {
 
 /*alternate color 00478F*/
 .masthead {
-    padding: 6em 0;
+    padding: 10em 0;
     border-top: solid 1em #CF4129;
     background-image: url("../img/headercity.jpeg"); 
     background-size: cover;
@@ -93,10 +93,17 @@ h3 {
   margin: 0.3em auto 0 auto;
 }
 
+.introduction-expand {
+  max-width: 120px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 auto;
+}
 
 .introduction-content {
   margin: 1.5em auto;
   max-width: 38em;
+  display: none;
 }
 
 .introduction-content > p,
@@ -112,16 +119,23 @@ h3 {
 }
 
 .container-2 {
-  max-width: 45em;
+  max-width: 48em;
   margin: 0 auto;
 }
 
 .design-section,
 .behavior-section,
-.policy-section,
-.project {
+.policy-section {
   max-width: 18em;
   max-height: 210px;
+  display: inline-block;
+  margin: 1.7em 1.7em;
+  vertical-align: top;
+}
+
+.project {
+  max-width: 20em;
+  max-height: 250px;
   display: inline-block;
   margin: 1.7em 1.7em;
   vertical-align: top;
