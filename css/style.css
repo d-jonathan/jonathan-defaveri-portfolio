@@ -119,8 +119,7 @@ h3 {
 .design-section,
 .behavior-section,
 .policy-section,
-.karma-clone,
-.nytimes-hack {
+.project {
   max-width: 18em;
   max-height: 210px;
   display: inline-block;
@@ -148,21 +147,18 @@ h3 {
 .design-section > p,
 .behavior-section > p,
 .policy-section > p,
-.karma-clone > p,
-.nytimes-hack > p,
+.project > p,
 .social > li {
   /*Tyopgraphy Declarations*/
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
-.karma-clone,
-.nytimes-hack {
+.project {
   text-align: center;
 }
 
-.karma-clone > p,
-.nytimes-hack > p {
+.project > p {
   margin-top: 1em;
   text-align: center;
 }
@@ -192,3 +188,5 @@ h3 {
 .social a:hover {
   color: #982C00;
 }
+
+
